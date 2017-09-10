@@ -182,7 +182,7 @@
 				var point = maxPoint * randomPoint;
 				var newCircle = new Path.Circle(point, 500)
 				newCircle.fillColor = keyData[event.key].color;
-				text.content = event.key;
+				text.content = ''+event.key;
 				keyData[event.key].sound.play();
 				circles.push(newCircle);
 			}
