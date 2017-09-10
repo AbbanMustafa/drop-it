@@ -167,6 +167,13 @@
 		}
 
 		var circles = [];
+		
+		var text = new PointText({
+			point: view.center,
+			content: 'press any key',
+			justification: 'center',
+			fontSize: 15
+			});
 
 		function onKeyDown(event) {
 			if(keyData[event.key]){
